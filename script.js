@@ -1,7 +1,7 @@
 hour  = document.getElementById("hour");
 minute  = document.getElementById("minute");
 sec  = document.getElementById("sec");
-console.log(hour)
+digi = document.getElementById("digi")
 setInterval(()=>{
     d = new Date();
     htime = d.getHours();
@@ -13,4 +13,5 @@ setInterval(()=>{
     hour.style.transform =`rotate(${hrotation}deg)`;
     minute.style.transform =`rotate(${mrotation}deg)`;
     sec.style.transform =`rotate(${srotation}deg)`;
+    digi.innerHTML=`Digital Time is ${d.toLocaleTimeString()}`
 },1000); 
