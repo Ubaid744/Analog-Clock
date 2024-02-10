@@ -14,7 +14,7 @@
     margin-top: 10px;
    
 }
-#hour, #minute, #sec{
+#hour, #minute, #sec, #digital_Analog{
     position: absolute;
     border-radius: 10px;
     transform-origin: bottom;
@@ -56,4 +56,8 @@ h1{
     display: flex;
     justify-content: center;
    
+}
+#digi{
+    font-size: 200%;
+    background-color: rgb(197, 219, 219);
 }
